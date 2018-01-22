@@ -39,8 +39,8 @@
     "docs:publish": "cd _book && git init && git commit --allow-empty -m 'update book' && git checkout -b gh-pages && touch .nojekyll && git add . && git commit -am 'update book' && git push git@github.com:shastajs/shasta gh-pages --force"
   },
   "peerDependencies": {
-    "react": "^15.0.0",
-    "react-dom": "^15.0.0"
+    "react": ">=15.0.0",
+    "react-dom": ">=15.0.0"
   },
   "devDependencies": {
     "babel": "^6.3.26",
